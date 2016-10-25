@@ -10,7 +10,7 @@ void setup() {
 }
 
 void loop() {
-for (int j=0; j<=3; j++){
+for (int j=0; j<=2; j++){
   for(int i=alt[j]; i>=baix[j]; i--){
 
     analogWrite(led, i);
